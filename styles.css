@@ -1,0 +1,1001 @@
+header {
+    display: flex;
+    background-color: black;
+}
+
+body, html {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    padding: 14px 16px;
+    border: 1px solid rgb(58, 58, 58);
+}
+
+.spotlight {
+    position: relative;
+    display: inline-block;
+}
+
+.spotlighttitle {
+    font-size: 30px;
+    position: absolute;
+    right: 8%;
+    top: 50%;
+    color: yellow;
+    text-shadow: 5px 5px 5px black;
+    transform: translate(-50%, -50%);
+    line-height: 10px;
+}
+
+.h2color {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-shadow: none;
+}
+
+section {
+    font-size: 0;
+}
+
+.ticketssection {
+  width: 100%;
+  font-size: 20px;
+  background-color: white;
+  padding-top: 1px;
+  padding-left: 0px;
+  padding-right: 0;
+  padding-bottom: 80px;
+}
+
+h3 {
+  color: black;
+  background-color: white;
+}
+
+.noborder {
+    border: none;
+    padding: 0;
+}
+
+.noborder:hover {
+    background-color: black;
+}
+
+li a:hover {
+    background-color: #1b1b1b;
+  }
+
+nav ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.logo-nav {
+    display: flex;
+    margin: auto;
+}
+
+body {
+    font-family: sans-serif;
+    position: relative;
+    min-height: 100vh;
+}
+
+img {
+    float: left;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.lowerimage1 {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+  }
+  
+.lowerimage1 img {
+    width: 100%;
+}
+  
+.title1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.title1 a {
+    color: white;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px black;
+}
+
+.lowerimage2 {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+}
+  
+.lowerimage2 img {
+    width: 100%;
+}
+  
+.title2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.title2 a {
+    color: white;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px black;
+}
+
+.lowerimage3 {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+}
+  
+.lowerimage3 img {
+    width: 100%;
+}
+  
+.title3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.title3 a {
+    color: white;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px black;
+}
+
+.lowerimage4 {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+}
+  
+.lowerimage4 img {
+    width: 100%;
+}
+  
+.title4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.title4 a {
+    color: white;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px black;
+}
+
+.newstitle {
+  background-color: white;
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+.newsparagraph {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px 100px;
+}
+
+.newsimage {
+  margin-bottom: 10px;
+}
+
+#caracal {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  float: none;
+}
+
+#checkboxMammal {
+  display: inline;
+}
+
+#checkboxAmphibians {
+  display: inline;
+}
+
+#checkboxBirds {
+  display: inline;
+}
+
+#checkboxReptile {
+  display: inline;
+}
+
+.news {
+  background-color: white;
+}
+
+.education {
+  background-color: white;
+}
+
+.animalgallery {
+  display: inline-block;
+  width: 22%;
+  margin: 20px;
+  position: relative;
+  float: none;
+}
+
+.none {
+  display: none;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  color: black;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmed {
+  text-align: center;
+  padding-bottom: 100%;
+}
+
+input[type="text"],
+select,
+textarea {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: 5px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="checkbox"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="checkbox"]:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.animalgalleryinfo {
+  color: green;
+  margin-left: 10px;
+}
+
+label {
+  margin-left: 10px;
+}
+
+.article1 {
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.article2 {
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.educationarticle1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.educationarticle2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.educationimage1 {
+  width: 50%;
+}
+
+.educationimage2 {
+  width: 50%;
+}
+
+.educationimagemobile {
+  width: 50%;
+  display: none;
+}
+
+.educationtitle {
+  background-color: white;
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin: 0 0 7px 0;
+}
+
+.educationtext1 {
+  font-size: 15px;
+  padding: 0 15px;
+  float: left;
+  background-color: white;
+  width: 50%;
+}
+
+.educationtext2 {
+  font-size: 15px;
+  padding: 0 15px;
+  float: right;
+  background-color: white;
+  width: 50%;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 10%;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 10%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  top: 0;
+  font-weight: bold;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.carouselimage {
+  width: 80%;
+  float: none;
+}
+
+.adult_tix_price {
+  display: none;
+}
+
+.child_tix_price {
+  display: none;
+}
+
+.ticketform {
+  background-color: white;
+  float: left;
+  width: 50%;
+  padding-left: 15px;
+  text-align: center;
+}
+
+#more {
+  display: none;
+}
+
+#more2 {
+  display: none;
+}
+
+.scheduleimage1 {
+  width: 50%;
+  float: right;
+  background-color: white;
+}
+
+.scheduleimage2 {
+  width: 50%;
+  float: none;
+  background-color: white;
+  display: none;
+}
+
+.tickethr {
+  display: none;
+}
+
+.threeelephants {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.elephantmap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.mammalgallery {
+  display: inline-block;
+  position: relative;
+  float: none;
+  width: 50%;
+}
+
+.amphibiangallery {
+  display: inline-block;
+  position: relative;
+  float: none;
+  width: 50%;
+}
+
+.birdgallery {
+  display: inline-block;
+  position: relative;
+  float: none;
+  width: 50%;
+}
+
+.reptilegallery {
+  display: inline-block;
+  position: relative;
+  float: none;
+  width: 50%;
+}
+
+.lionbody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.lionmap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.pandabody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.pandamap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.chinchillabody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.chinchillamap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.manateebody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.manateemap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.africanbullfrogbody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.africanbullfrogmap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.axolotlbody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.axolotlmap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.chinesegiantsalamanderbody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.chinesegiantsalamandermap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.toadbody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.toadmap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.parrotbody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.toucanbody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.birdmap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.budgerigarbody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.falconbody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.crocodilebody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.crocodilemap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.gianttortoisebody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.gianttortoisemap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.watermonitorbody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.watermonitormap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.iguanabody {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.iguanamap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.lionmap img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.pandamap img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.chinchillamap img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.manateemap img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.africanbullfrogmap img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.axolotlmap img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.chinesegiantsalamandermap img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.toadmap img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(2);
+  cursor: zoom-out;
+}
+
+.birdmap img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.crocodilemap img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.gianttortoisemap img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.watermonitormap img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.iguanamap img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.elephantmap img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+@media only screen and (max-width: 1024px) {
+  .spotlighttitle {
+    font-size: 30px;
+    right: -5%;
+  }
+
+  .title1 a {
+    font-size: 20px;
+    text-shadow: 3px 3px 3px black;
+  }
+
+  .title2 a {
+    font-size: 20px;
+    text-shadow: 3px 3px 3px black;
+  }
+
+  .title3 a {
+    font-size: 20px;
+    text-shadow: 3px 3px 3px black;
+  }
+
+  .title4 a {
+    font-size: 20px;
+    text-shadow: 3px 3px 3px black;
+  }
+
+  nav ul {
+    margin: 10px 0;
+  }
+
+  .scheduleimage1 {
+    display: none;
+  }
+  
+  .scheduleimage2 {
+    float: none;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+  }
+
+  .ticketform {
+    background-color: white;
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .tickethr {
+    display: block;
+  }
+
+  .animalgallery {
+    margin: 10px;
+    width: 46%;
+  }
+
+  .educationimage1 {
+    width: 100%;
+    display: block;
+  }
+
+  .educationimage1 img {
+    float: none;
+  }
+  
+  .educationimage2 {
+    display: none;
+  }
+
+  .educationimagemobile {
+    width: 100%;
+    display: block;
+  }
+
+  .educationimagemobile img {
+    float: none;
+  }
+
+  .educationtext1 {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  
+  .educationtext2 {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  .educationarticle1 {
+    display: block;
+  }
+  
+  .educationarticle2 {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .spotlighttitle {
+    font-size: 20px;
+  }
+  
+  .h2color {
+    font-size: 30px;
+  }
+
+  .lowerimage1 {
+    width: 50%;
+  }
+  
+  .title1 a {
+    font-size: 20px;
+    text-shadow: 3px 3px 3px black;
+  }
+
+  .lowerimage2 {
+    width: 50%;
+  }
+  
+  .lowerimage3 {
+    width: 50%;
+  }
+
+  .lowerimage4 {
+    width: 50%;
+  }
+
+  .top a {
+    letter-spacing: 0px;
+  }
+
+  li a {
+    padding: 5px 5px;
+    font-size: 17px;
+  }
+
+  li img {
+    width: 165px;
+  }
+
+  .animalgallery {
+    width: 44%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .spotlighttitle {
+    left: 180px;
+  }
+
+  li a {
+    font-size: 15px;
+  }
+
+  li img {
+    width: 150px;
+  }
+
+  .scheduleimage2 {
+    width: 50%;
+  }
+
+  .animalgallery {
+    width: 43%;
+  }
+}
